@@ -1,7 +1,7 @@
     <!-- ! Footer Started -->
     <!-- Footer -->
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-dark text-muted">
+<footer class="text-center text-lg-start bg-dark text-muted">
       <!-- Section: Social media -->
       <section
         class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
@@ -62,16 +62,16 @@
               <!-- Links -->
               <h6 class="text-white text-uppercase fw-bold mb-4">Products</h6>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Gen-z</a>
+                <a href="#!" class="text-reset">Gen-z</a>
               </p>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">T-shirt</a>
+                <a href="#!" class="text-reset" >T-shirt</a>
               </p>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Chinos</a>
+                <a href="#!" class="text-reset" >Chinos</a>
               </p>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Hoodies</a>
+                <a href="#!" class="text-reset" >Hoodies</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -83,16 +83,16 @@
                 Useful links
               </h6>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Pricing</a>
+                <a href="#!" class="text-reset" >Pricing</a>
               </p>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Settings</a>
+                <a href="#!" class="text-reset" >Settings</a>
               </p>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Orders</a>
+                <a href="#!" class="text-reset" >Orders</a>
               </p>
               <p class="text-white">
-                <a href="#!" class="text-reset" style="text-decoration: none;">Help</a>
+                <a href="#!" class="text-reset" >Help</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -136,12 +136,12 @@
     <!-- ! Footer Bar Ends -->
 
     <!-- ! Scripting Tag Started -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/src/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    
+    <script src="./src/js/main.js""></script>
     <!-- ! Scripting Tag Ends -->
   </body>
 </html>
