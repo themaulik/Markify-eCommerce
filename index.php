@@ -367,11 +367,11 @@
            <!-- Modal body -->
            <div class="modal-body">
              <div class="card-img">
-               <img class="product-img-model mx-auto d-block " src="./src/img/chinos-1.png" alt="">
+               <img class="product-img-model mx-auto d-block " src="./src/img/chinos-2.png" alt="">
              </div>
              <div class="product-card-details">
                <h1 class="text-center">navy Blue Chinos</h1>
-               <h4 class="text-center"><del>$40.00</del> $30.63</h4>
+               <h4 class="text-center"><del>$40.00</del> $33.33</h4>
                <p class="text-center">100% Original Products <br>
                  Pay on delivery might be available <br>
                  Easy 30 days returns and exchanges <br>
@@ -399,33 +399,32 @@
       <h4>Hoodies </h4>
     </div>
     <div class="card-body">
-    <img class="product-img img-fluid" src="./src/img/hoodie-1.png" alt=""><br><br>
-    <a href="#" class="btn btn-info text-light text-bold mt-auto" data-bs-toggle="modal" data-bs-target="#myModal-3">View Product</a>
+    <img class="product-img img-fluid" src="./src/img/hoodie-2.png" alt=""><br><br>
+    <a href="#" class="btn btn-info text-light text-bold mt-auto" data-bs-toggle="modal" data-bs-target="#myModal-3-1">View Product</a>
     </div>
     <div class="card-footer text-muted">
-      <h5>$ 36.78</h5>
+      <h5>$36.78</h5>
     </div>
   </div>
 
-  <!-- The Modal product-3 -->
-  <div class="modal fade" id="myModal-3">
+  <!-- The Modal product-3-1 -->
+  <div class="modal fade" id="myModal-3-1">
        <div class="modal-dialog modal-dialog-centered">
          <div class="modal-content">
            <!-- Modal Header -->
            <div class="modal-header">
              <h4 class="">Hoodies - Product Details <span class="badge bg-danger ">Discount</span></h4>
-
              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
            </div>
 
            <!-- Modal body -->
            <div class="modal-body">
              <div class="card-img">
-               <img class="product-img-model mx-auto d-block " src="./src/img/hoodie-1.png" alt="">
+               <img class="product-img-model mx-auto d-block " src="./src/img/hoodie-2.png" alt="">
              </div>
              <div class="product-card-details">
-               <h1 class="text-center">Stranger Things Black - hoodies</h1>
-               <h4 class="text-center"><del>$50.56</del> $24.56</h4>
+               <h1 class="text-center">Moon Night - hoodies</h1>
+               <h4 class="text-center"><del>$45.85</del> $36.78</h4>
                <p class="text-center">100% Original Products <br>
                  Pay on delivery might be available <br>
                  Easy 30 days returns and exchanges <br>
@@ -453,8 +452,8 @@
       <h4>Female Clothe</h4>
     </div>
     <div class="card-body">
-    <img class="product-img img-fluid" src="./src/img/female-cloth-1.png" alt=""><br><br>
-    <a href="#" class="btn btn-info text-light text-bold mt-auto" data-bs-toggle="modal" data-bs-target="#myModal-4">View Product</a>
+    <img class="product-img img-fluid" src="./src/img/female-cloth-2.png" alt=""><br><br>
+    <a href="#" class="btn btn-info text-light text-bold mt-auto" data-bs-toggle="modal" data-bs-target="#myModal-4-1">View Product</a>
     </div>
     <div class="card-footer text-muted">
       <h5>$ 75.69</h5>
@@ -463,12 +462,12 @@
 </div>
 
 <!-- The Modal product-4 -->
-<div class="modal fade" id="myModal-4">
+<div class="modal fade" id="myModal-4-1">
        <div class="modal-dialog modal-dialog-centered">
          <div class="modal-content">
            <!-- Modal Header -->
            <div class="modal-header">
-             <h4 class="">Female - Product Details </h4>
+             <h4 class="">Female clothe - Product Details </h4>
              <div class=" badge bg-danger">Discount</div>
              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
            </div>
@@ -476,11 +475,11 @@
            <!-- Modal body -->
            <div class="modal-body">
              <div class="card-img">
-               <img class="product-img-model mx-auto d-block " src="./src/img/female-cloth-1.png" alt="">
+               <img class="product-img-model mx-auto d-block " src="./src/img/female-cloth-2.png" alt="">
              </div>
              <div class="product-card-details">
                <h1 class="text-center">Female Clothe</h1>
-               <h4 class="text-center"><del>$50.56</del> $24.56</h4>
+               <h4 class="text-center"><del>$84.00</del> $75.69</h4>
                <p class="text-center">100% Original Products <br>
                  Pay on delivery might be available <br>
                  Easy 30 days returns and exchanges <br>
