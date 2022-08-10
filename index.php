@@ -60,7 +60,7 @@
 </div>
 
 
-
+<Section class="product-listing">
 <!-- ! Produuct card -->
 
 <div class="container-fluid">
@@ -499,6 +499,7 @@
          </div>
        </div>
      </div>
+     </Section>
 
 
 <!-- ---------------------------------------------- ! Main Website Pages ENDS HERE ------------------------------------------------------------  -->
