@@ -1,6 +1,7 @@
 <?php include 'inc/header.php'; 
 session_start();
 ?>
+<?php print_r($_SESSION['cart']);?>
 <!-- ---------------------------------------------- ! Main Website Pages START HERE ------------------------------------------------------------  -->
 
 <section class="category-section">
