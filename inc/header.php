@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css" integrity="sha512-3kSeajrEqMrItwRkYz09bOsHsl4/wpoT6mgw5Aw+eSLweQtX7kZp2P/Dm7hnUg/TrbTGesAgCPwvZpllhuROTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./src/css/style.css" />
   
-  <title>Markify - Book For You</title>
+  <title>Markify - The Leading eCommerce Website</title>
   
 </head>
 
@@ -30,12 +30,12 @@
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li> -->
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
-        </li>
+        </li> -->
       </ul>
       <div class="cart d-flex">
-      <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-plus text-dark"> Cart</i></button>      
+      <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-plus text-dark">  Cart <span>(0)</span></i></button>      
       </div>
     </div>
   </div>
