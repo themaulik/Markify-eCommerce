@@ -35,7 +35,7 @@
         </li> -->
       </ul>
       <div class="cart d-flex">
-      <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-plus text-dark">  Cart <span>(0)</span></i></button>      
+      <a class="btn btn-warning" href="./page/mycart.php"><i class="fa-solid fa-cart-plus text-dark">  Cart <span>(0)</span></i></a> 
       </div>
     </div>
   </div>
