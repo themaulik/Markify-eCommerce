@@ -74,7 +74,8 @@ session_start();
   <!-- Product list one -->
 
   <div class="container-fluid d-md-flex flex-md-row mb-5 justify-content-md-evenly d-grid gap-3">
-    <div class="card text-center h-100">
+  <!--  -->  
+  <div class="card text-center h-100">
       <div class="card-header">
         <h4>T-shirt</h4>
       </div>
