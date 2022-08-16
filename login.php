@@ -1,22 +1,26 @@
 <?php include_once 'header.php' ?>
+
 <div class="container my-5">
-  <div class=""></div>
-  <form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  <div class="row justify-content-center ">
+    <div class="my-5 col-md-4 col-md-offset-4">
+      <h1 class="text-uppercase">Login Form</h1>
+      <form action="./include/login.nic.php" method="POST">
+      <div class="form-floating mb-3 border border-dark rounded">
+          <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Username">
+          <label for="floatingInput">Full Name</label>
+        </div>
+        <div class="form-floating mb-3 border border-dark rounded">
+          <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3 border border-dark rounded">
+          <input type="password" name="pwd" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <button type="submit" name="submit" class="btn btn-dark btn-lg">Submit</button>
+      </form>
     </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+  </div>
 </div>
 
 <?php include_once 'footer.php' ?>
