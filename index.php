@@ -113,7 +113,7 @@ session_start();
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
               <form action="cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-                <input type="hidden" name="item-name" value="Item-1">
+                <input type="hidden" name="item_name" value="Item-1">
                 <input type="hidden" name="Price" value="24.56">
               </form>
 
@@ -171,7 +171,7 @@ session_start();
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
               <form action="cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-                <input type="hidden" name="item-name" value="Item-2">
+                <input type="hidden" name="item_name" value="Item-2">
                 <input type="hidden" name="Price" value="30.63">
               </form>
             </div>
@@ -229,7 +229,7 @@ session_start();
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
               <form action="./page/cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-                <input type="hidden" name="item-name" value="Item-3">
+                <input type="hidden" name="item_name" value="Item-3">
                 <input type="hidden" name="Price" value="36.78">
               </form>
             </div>
@@ -288,7 +288,7 @@ session_start();
             <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
             <form action="./page/cart_manager.php" method="POST">
               <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-              <input type="hidden" name="item-name" value="Item-4">
+              <input type="hidden" name="item_name" value="Item-4">
               <input type="hidden" name="Price" value="76.69">
             </form>
           </div>
@@ -347,7 +347,7 @@ session_start();
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
               <form action="./page/cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-                <input type="hidden" name="item-name" value="Item-5">
+                <input type="hidden" name="item_name" value="Item-5">
                 <input type="hidden" name="Price" value="25.56">
               </form>
             </div>
@@ -404,7 +404,7 @@ session_start();
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
               <form action="/page/cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-                <input type="hidden" name="item-name" value="Item-6">
+                <input type="hidden" name="item_name" value="Item-6">
                 <input type="hidden" name="Price" value="33.33">
               </form>
             </div>
@@ -461,7 +461,7 @@ session_start();
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
               <form action="./page/cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-                <input type="hidden" name="item-name" value="Item-7">
+                <input type="hidden" name="item_name" value="Item-7">
                 <input type="hidden" name="Price" value="36.78">
               </form>
             </div>
@@ -520,7 +520,7 @@ session_start();
             <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
             <form action="./page/cart_manager.php" method="POST">
               <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-              <input type="hidden" name="item-name" value="Item-8">
+              <input type="hidden" name="item_name" value="Item-8">
               <input type="hidden" name="Price" value="75.69">
             </form>
           </div>
