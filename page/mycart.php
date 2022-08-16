@@ -1,4 +1,4 @@
-<?php include '../inc/header.php';
+<?php include '../header.php';
 
 session_start();
 ?>

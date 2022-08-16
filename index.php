@@ -1,4 +1,4 @@
-<?php include 'inc/header.php'; 
+<?php include 'header.php';
 session_start();
 ?>
 <!-- ---------------------------------------------- ! Main Website Pages START HERE ------------------------------------------------------------  -->
@@ -64,18 +64,18 @@ session_start();
 
 <Section class="product-listing">
   <!-- ! Produuct card -->
-
   <div class="container-fluid">
     <h2 class="text-center fw-bold my-5 text-uppercase">
       Some thing for you
       <hr class="product-hr">
     </h2>
   </div>
-  <!-- Product list one -->
 
+  <!-- Product listing one -->
   <div class="container-fluid d-md-flex flex-md-row mb-5 justify-content-md-evenly d-grid gap-3">
-  <!--  -->  
-  <div class="card text-center h-100">
+
+    <!-- Product-1 Details -->
+    <div class="card text-center h-100">
       <div class="card-header">
         <h4>T-shirt</h4>
       </div>
@@ -130,7 +130,7 @@ session_start();
       </div>
     </div>
 
-
+    <!-- Product-2 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>Chinos</h4>
@@ -143,7 +143,6 @@ session_start();
         <h5>$ 30.63</h5>
       </div>
     </div>
-
     <!-- The Modal product-2 -->
     <div class="modal fade" id="myModal-2">
       <div class="modal-dialog modal-dialog-centered">
@@ -187,8 +186,7 @@ session_start();
       </div>
     </div>
 
-
-
+    <!-- Product-3 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>Hoodies </h4>
@@ -201,7 +199,6 @@ session_start();
         <h5>$ 36.78</h5>
       </div>
     </div>
-
     <!-- The Modal product-3 -->
     <div class="modal fade" id="myModal-3">
       <div class="modal-dialog modal-dialog-centered">
@@ -228,7 +225,7 @@ session_start();
             </div>
             <div class="text-center">
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
-              <form action="    cart_manager.php" method="POST">
+              <form action="cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
                 <input type="hidden" name="item_name" value="Item-3">
                 <input type="hidden" name="Price" value="36.78">
@@ -245,8 +242,7 @@ session_start();
       </div>
     </div>
 
-
-
+    <!-- Product-4 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>Female Clothe</h4>
@@ -259,56 +255,56 @@ session_start();
         <h5>$ 75.69</h5>
       </div>
     </div>
-  </div>
-
-  <!-- The Modal product-4 -->
-  <div class="modal fade" id="myModal-4">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="">Female - Product Details </h4>
-          <div class=" badge bg-danger">Discount</div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-
-        <!-- Modal body -->
-        <div class="modal-body">
-          <div class="card-img">
-            <img class="product-img-model mx-auto d-block " src="./src/img/female-cloth-1.png" alt="">
+    <!-- The Modal product-4 -->
+    <div class="modal fade" id="myModal-4">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="">Female - Product Details </h4>
+            <div class=" badge bg-danger">Discount</div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
-          <div class="product-card-details">
-            <h1 class="text-center">Female Clothe</h1>
-            <h4 class="text-center"><del>$110.00</del> $76.69</h4>
-            <p class="text-center">100% Original Products <br>
-              Pay on delivery might be available <br>
-              Easy 30 days returns and exchanges <br>
-              Try & Buy might be available</p>
-          </div>
-          <div class="text-center">
-            <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
-            <form action="cart_manager.php" method="POST">
-              <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-              <input type="hidden" name="item_name" value="Item-4">
-              <input type="hidden" name="Price" value="76.69">
-            </form>
-          </div>
-        </div>
 
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-white border" data-bs-dismiss="modal">Close</button>
-        </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="card-img">
+              <img class="product-img-model mx-auto d-block " src="./src/img/female-cloth-1.png" alt="">
+            </div>
+            <div class="product-card-details">
+              <h1 class="text-center">Female Clothe</h1>
+              <h4 class="text-center"><del>$110.00</del> $76.69</h4>
+              <p class="text-center">100% Original Products <br>
+                Pay on delivery might be available <br>
+                Easy 30 days returns and exchanges <br>
+                Try & Buy might be available</p>
+            </div>
+            <div class="text-center">
+              <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
+              <form action="cart_manager.php" method="POST">
+                <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
+                <input type="hidden" name="item_name" value="Item-4">
+                <input type="hidden" name="Price" value="76.69">
+              </form>
+            </div>
+          </div>
 
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-white border" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
       </div>
     </div>
+
   </div>
 
 
 
-  <!-- Product list Two-->
-
+  <!-- Product listing Two-->
   <div class="container-fluid d-md-flex flex-md-row mb-5 justify-content-md-evenly d-grid gap-3">
+    <!-- Product-1-1 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>T-shirt</h4>
@@ -346,7 +342,7 @@ session_start();
             </div>
             <div class="text-center">
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
-              <form action="./page/cart_manager.php" method="POST">
+              <form action="cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
                 <input type="hidden" name="item_name" value="Item-5">
                 <input type="hidden" name="Price" value="25.56">
@@ -363,7 +359,7 @@ session_start();
       </div>
     </div>
 
-
+    <!-- Product-2-1 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>Chinos</h4>
@@ -376,7 +372,6 @@ session_start();
         <h5>$ 32.33</h5>
       </div>
     </div>
-
     <!-- The Modal product-2-1 -->
     <div class="modal fade" id="myModal-2-1">
       <div class="modal-dialog modal-dialog-centered">
@@ -403,7 +398,7 @@ session_start();
             </div>
             <div class="text-center">
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
-              <form action="/page/cart_manager.php" method="POST">
+              <form action="cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
                 <input type="hidden" name="item_name" value="Item-6">
                 <input type="hidden" name="Price" value="33.33">
@@ -420,8 +415,7 @@ session_start();
       </div>
     </div>
 
-
-
+    <!-- Product-3-1 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>Hoodies </h4>
@@ -434,7 +428,6 @@ session_start();
         <h5>$36.78</h5>
       </div>
     </div>
-
     <!-- The Modal product-3-1 -->
     <div class="modal fade" id="myModal-3-1">
       <div class="modal-dialog modal-dialog-centered">
@@ -460,7 +453,7 @@ session_start();
             </div>
             <div class="text-center">
               <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
-              <form action="./page/cart_manager.php" method="POST">
+              <form action="cart_manager.php" method="POST">
                 <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
                 <input type="hidden" name="item_name" value="Item-7">
                 <input type="hidden" name="Price" value="36.78">
@@ -477,8 +470,7 @@ session_start();
       </div>
     </div>
 
-
-
+    <!-- Product-4-1 Details -->
     <div class="card text-center h-100">
       <div class="card-header">
         <h4>Female Clothe</h4>
@@ -491,52 +483,52 @@ session_start();
         <h5>$ 75.69</h5>
       </div>
     </div>
-  </div>
-
-  <!-- The Modal product-4 -->
-  <div class="modal fade" id="myModal-4-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h4 class="">Female clothe - Product Details </h4>
-          <div class=" badge bg-danger">Discount</div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        </div>
-
-        <!-- Modal body -->
-        <div class="modal-body">
-          <div class="card-img">
-            <img class="product-img-model mx-auto d-block " src="./src/img/female-cloth-2.png" alt="">
+    <!-- The Modal product-4 -->
+    <div class="modal fade" id="myModal-4-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="">Female clothe - Product Details </h4>
+            <div class=" badge bg-danger">Discount</div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
-          <div class="product-card-details">
-            <h1 class="text-center">Female Clothe</h1>
-            <h4 class="text-center"><del>$84.00</del> $75.69</h4>
-            <p class="text-center">100% Original Products <br>
-              Pay on delivery might be available <br>
-              Easy 30 days returns and exchanges <br>
-              Try & Buy might be available</p>
-          </div>
-          <div class="text-center">
-            <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
-            <form action="cart_manager.php" method="POST">
-              <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
-              <input type="hidden" name="item_name" value="Item-8">
-              <input type="hidden" name="Price" value="75.69">
-            </form>
-          </div>
-        </div>
 
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-white border" data-bs-dismiss="modal">Close</button>
-        </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="card-img">
+              <img class="product-img-model mx-auto d-block " src="./src/img/female-cloth-2.png" alt="">
+            </div>
+            <div class="product-card-details">
+              <h1 class="text-center">Female Clothe</h1>
+              <h4 class="text-center"><del>$84.00</del> $75.69</h4>
+              <p class="text-center">100% Original Products <br>
+                Pay on delivery might be available <br>
+                Easy 30 days returns and exchanges <br>
+                Try & Buy might be available</p>
+            </div>
+            <div class="text-center">
+              <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">Buy Now</button>
+              <form action="cart_manager.php" method="POST">
+                <button type="submit" name="addToCart" class="btn btn-warning btn-lg" data-dismiss="modal">Add to Cart</button>
+                <input type="hidden" name="item_name" value="Item-8">
+                <input type="hidden" name="Price" value="75.69">
+              </form>
+            </div>
+          </div>
 
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-white border" data-bs-dismiss="modal">Close</button>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
+
 </Section>
 
 
 <!-- ---------------------------------------------- ! Main Website Pages ENDS HERE ------------------------------------------------------------  -->
-<?php include 'inc/footer.php'; ?>
+<?php include 'footer.php'; ?>
