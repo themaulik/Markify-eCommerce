@@ -55,7 +55,7 @@ session_start();
           </tbody>
         </table>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 my-5">
         <div class="border bg-light rounded p-5">
           <h4>Total:</h4>
           <h5 class="text-end"><?php echo $total; ?></h5>
@@ -79,3 +79,5 @@ session_start();
 </body>
 
 </html>
+
+<?php include '../footer.php'; ?>
