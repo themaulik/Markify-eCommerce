@@ -42,9 +42,13 @@ session_start();
                     <td>$value[item_name]</td>
                     <td>$value[Price]</td>
                     <td><input type='number' value='$value[Quantity]' min='1' max='10'></td>
-                    <td><button type='button' class='btn btn-sm btn-danger'>
-                    <span class='btn-label'><i class='fa fa-remove'></i></span> Cancel</button></td>
-                </tr>
+                    <td>
+                      <form action='../cart_manager.php' method='POST'>
+                        <button name='remove_item' class='btn btn-sm btn-danger'>Cancel</button>
+                        <input type='hidden' name='item_name' value='$value[item_name]'>
+                      </form>
+                    </td>
+                  </tr>
                   ";
               }
             }
@@ -66,7 +70,7 @@ session_start();
             </div>
             <br>
             <div class="text-center">
-              <button name="remove_item" class="btn btn-primary fw-bold">Make Purchase</button>
+              <button class="btn btn-primary fw-bold">Make Purchase</button>
             </div>
           </form>
         </div>
