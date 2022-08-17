@@ -31,4 +31,19 @@
   </div>
 </div>
 
+<?php 
+  if (isset($_GET["error"])) {
+    if ($_GET["error"] == "emptyinput") {
+      echo "<script>
+          alert('No Input (Please Fill the Input Correctly)');
+        </script>";
+    }
+    if ($_GET["error"] == "invaliduid") {
+      echo "<script>
+          alert('Invalid Username');
+        </script>";
+    }
+  }
+?>
+
 <?php include_once 'footer.php' ?>
