@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
     exit();
   }
   if (pwdMatch($pwd, $pwdrepeat) !== false) {
-    header("location:../register.php?error=pwdmatch");
+    header("location:../register.php?error=pwddontmatch");
     exit();
   }
   if (uidExists($conn, $username, $email) !== false) {

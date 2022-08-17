@@ -34,7 +34,7 @@ function invalidemail($email)
 function pwdMatch($pwd, $pwdrepeat)
 {
   $result;
-  if ($pwd !== $pwdrepeat) {
+  if (!$pwd !== $pwdrepeat) {
     $result = true;
   } else {
     $result = false;

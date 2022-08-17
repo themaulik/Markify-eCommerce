@@ -22,16 +22,14 @@
           <label for="floatingPassword">Password</label>
         </div>
         <div class="form-floating mb-3 border border-dark rounded">
-          <input type="password" name="pwdrepeat" class="form-control" id="floatingPassword" placeholder="Password">
+          <input type="password" name="pwdrepeat" class="form-control" id="floatingPassword" placeholder="Repeat Password">
           <label for="floatingPassword">Repeat Password</label>
         </div>
         <button type="submit" name="submit" class="btn btn-dark btn-lg">Submit</button>
       </form>
     </div>
   </div>
-</div>
-
-<?php 
+  <?php
   if (isset($_GET["error"])) {
     if ($_GET["error"] == "emptyinput") {
       echo "<script>
@@ -40,10 +38,29 @@
     }
     if ($_GET["error"] == "invaliduid") {
       echo "<script>
-          alert('Invalid Username');
+          alert('Invalid Username (Please Enter Correct Username)');
+        </script>";
+    } elseif ($_GET["error"] == "invalidemail") {
+      echo "<script>
+          alert('Invalid Email (Please Enter Correct Email)');
+        </script>";
+    } elseif ($_GET["error"] == "pwddontmatch") {
+      echo "<p class='text-center my-5 '>Password Don't Match</p>";
+    } elseif ($_GET["error"] == "stmtfailed") {
+      echo "<script>
+          alert('Somthing Went Wrong :( Try Again!');
+        </script>";
+    } elseif ($_GET["error"] == "usernamemistake") {
+      echo "<script>
+          alert('Sorry Username is Taken (Try Another One)');
+        </script>";
+    } elseif ($_GET["error"] == "none") {
+      echo "<script>
+          alert('You have successful Register');
         </script>";
     }
   }
-?>
+  ?>
+</div>
 
 <?php include_once 'footer.php' ?>
