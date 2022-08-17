@@ -7,11 +7,7 @@
       <form action="include/login.nic.php" method="POST">
         <div class="form-floating mb-3 border border-dark rounded">
           <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Username">
-          <label for="floatingInput">Full Name</label>
-        </div>
-        <div class="form-floating mb-3 border border-dark rounded">
-          <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Email address</label>
+          <label for="floatingInput">Username/Email</label>
         </div>
         <div class="form-floating mb-3 border border-dark rounded">
           <input type="password" name="pwd" class="form-control" id="floatingPassword" placeholder="Password">
@@ -22,5 +18,13 @@
     </div>
   </div>
 </div>
+
+<?php 
+if (isset($_GOT["submit"])) {
+  if () {
+    # code...
+  }
+}
+?>
 
 <?php include_once 'footer.php' ?>
