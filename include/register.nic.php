@@ -10,6 +10,11 @@ if (isset($_POST["submit"])) {
   require_once 'connection.php';
   require_once 'functions.php';
 
+  if(emptyInputRegister() !== false){
+    header("location:../register.php");
+    exit();
+  }
+
 } else {
 }
   header("location:../register.php");
