@@ -30,6 +30,7 @@ if (isset($_POST["submit"])) {
     header("location:../register.php?error=usernamemistake");
     exit();
   }
+  createUser($conn, $name, $username, $email, $pwd);
 } else {
 }
 header("location:../register.php");
