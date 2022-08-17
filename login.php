@@ -19,12 +19,4 @@
   </div>
 </div>
 
-<?php 
-if (isset($_GOT["submit"])) {
-  if () {
-    # code...
-  }
-}
-?>
-
 <?php include_once 'footer.php' ?>
