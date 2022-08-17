@@ -1,5 +1,5 @@
 <?php
-
+// Register Page Functions
 function emptyInputRegister($name, $username, $email, $pwd, $pwdrepeat)
 {
   $result;
@@ -80,4 +80,25 @@ function createUser($conn, $name, $username, $email, $pwd)
   mysqli_stmt_close($stmt);
   header("location:../register.php?error=none");
   exit();
+}
+
+// Login Page Functions
+function emptyInputLogin($username, $pwd)
+{
+  $result;
+  if (empty($name) || empty($username) || empty($pwd)) {
+    $result = true;
+  } else {
+    $result = false;
+  }
+  return $result;
+}
+
+function loginUser($conn, $username, $pwd)
+{
+  $uidExists = uidExists($conn, $username, $username);
+  if ($uidExists === false) {
+    header("location:../login.php?error=wronglogin");
+    exit();
+  }
 }
