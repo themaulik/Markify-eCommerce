@@ -70,3 +70,26 @@ function uidExists($conn, $username, $email){
   mysqli_close();
 
 }
+
+function createUser($conn, $name, $username, $email, $pwd);{
+  $mysql = "INSERT INTO users (userName, userUid, userEmail, userPwd) VALUE (?, ?, ?, ?);";
+  $stmt = mysqli_stmt_init($conn);
+  if(!mysqli_stmt_prepare($stmt, $sql)){
+    header("location:../register.php?error=stmtfailed");
+    exit();
+  }
+  mysqli_stmt_bind_param($stmt, "ss", $username, $email);
+  mysqli_stmt_execute($stmt);
+
+  $resultData = mysqli_stmt_get_result($stmt);
+
+  if($row = mysqli_fetch_assoc($resultData)){
+    return $row;
+  }else{
+    $result = false;
+    return $result;
+  }
+
+  mysqli_close();
+
+}

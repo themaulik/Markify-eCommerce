@@ -26,7 +26,7 @@ if (isset($_POST["submit"])) {
     header("location:../register.php?error=pwdmatch");
     exit();
   }
-  if (uidExists($conn, $username) !== false) {
+  if (uidExists($conn, $username, $email) !== false) {
     header("location:../register.php?error=usernamemistake");
     exit();
   }
